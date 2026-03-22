@@ -1,0 +1,70 @@
+\section*{EXERCICI 1}
+\subsection*{a)}
+\begin{equation*}
+|x^2-1| < x+1
+\end{equation*}
+En primer lloc, desenvolupam el valor absolut:
+\begin{equation*}
+|x^2-1| =\left\lbrace\begin{array}{cc} x^2 - 1\text{  si  } x^2 -1\geq0 \\
+-x^2 +1\text{  si  } x^2 -1<0 
+\end{array}\right.
+\end{equation*}
+Ara dividim l'exercici en dos casos:
+\begin{itemize}
+\item Cas 1: $$x^2-1\geq0 \Leftrightarrow x^2\geq1\Leftrightarrow x\geq1 \lor x\leq-1$$
+Per tant, 
+\begin{equation}\label{1}
+x\in(-\infty,-1]\cup[1,+\infty)
+\end{equation}
+Com que estam al cas $$x^2-1\geq0$$ podem resoldre la inequació de la manera següent: $$|x^2-1| < x+1 \Leftrightarrow x^2-1 < x+1 \Leftrightarrow x^2-x-2<0
+$$\\ Resolem l'equació per saber els valors de x tals que anul·len el polinomi:$$
+x=\frac{1\pm\sqrt{1-4\times1\times(-2)}}{2\times1}\Leftrightarrow \left\lbrace\begin{array}{cc} x_1 = 2\\x_2=-1
+\end{array}\right.$$\\
+A continuació feim un estudi dels dos resultats per a saber quin interval de nombres satisfan la nostra inequació:\\
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$+$&$-$&$+$\\
+\hline
+$(-\infty,-1)$&$(-1,2)$&$(2,+\infty)$\\
+\hline
+\end{tabular}
+\end{center}
+Per tant, l'interval que satisfà la nostra inequació és:
+\begin{equation}\label{2}
+x\in(-1,2)
+\end{equation}
+Finalment, el resultat per aquest cas 1 seria la intersecció entre \ref{1} i \ref{2}, és a dir, 
+\begin{equation}\label{3}
+x\in((-\infty,-1]\cup[1,+\infty))\cap(-1,2) \Leftrightarrow x\in[1,2)
+\end{equation}
+\item Cas 2: $$x^2-1<0 \Leftrightarrow x^2<1 \Leftrightarrow x<1 \lor x>-1$$
+Per tant, 
+\begin{equation}\label{4}
+x\in(-1,1)
+\end{equation}
+Com que estam al cas $$x^2-1<0$$ podem resoldre la inequació de la manera següent: $$|x^2-1| < x+1 \Leftrightarrow -x^2+1 < x+1 \Leftrightarrow 0<x+x^2\Leftrightarrow0<x(1+x)\Leftrightarrow \left\lbrace\begin{array}{cc} x_1 = -1\\x_2=0
+\end{array}\right.$$\\
+A continuació feim un estudi dels dos resultats per a saber quin interval de nombres satisfan la nostra inequació:\\
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$+$&$-$&$+$\\
+\hline
+$(-\infty,-1)$&$(-1,0)$&$(0,+\infty)$\\
+\hline
+\end{tabular}
+\end{center}
+Per tant, l'interval que satisfà la nostra inequació és:
+\begin{equation}\label{5}
+x\in(-\infty,-1)\cup(0,+\infty)
+\end{equation}
+Finalment, el resultat per aquest cas 1 seria la intersecció entre \ref{4} i \ref{5}, és a dir, 
+\begin{equation}\label{6}
+x\in(-1,1)\cap((-\infty,-1)\cup(0,+\infty)) \Leftrightarrow x\in(0,1)
+\end{equation}
+\end{itemize}
+Després de realitzar els dos casos, obtenim el resultat final, la unió entre els dos intervals resultants de cada cas, és a dir, els intervals \ref{3} i \ref{6}:
+\begin{equation*}
+x\in[1,2)\cup(0,1) \Leftrightarrow \underline{x\in(0,2)}
+\end{equation*}
